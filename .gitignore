@@ -1,0 +1,47 @@
+# 1. Bog'liqliklar (Dependencies)
+node_modules/
+/jspm_packages/
+.pnpm-store/
+
+# 2. Tayyor mahsulot va keshlar (Production Builds & Caches)
+dist/
+build/
+.next/
+/out/
+.nuxt/
+.cache/
+.parcel-cache/
+.turbo/
+
+# 3. Maxfiy kalitlar va muhit fayllari (Environment Variables - JUDA MUHIM!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.json
+
+# 4. Tizim va dastur loglari (Logs & Diagnostics)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# 5. Operatsion tizim fayllari (OS Files)
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 6. IDE va Kod muharrirlari (IDEs/Editors)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
